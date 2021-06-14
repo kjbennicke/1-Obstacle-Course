@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667528, g: 0.48427093, b: 0.5645238, a: 1}
+  m_IndirectSpecularColor: {r: 0.43667555, g: 0.48427182, b: 0.56452405, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -662,6 +662,7 @@ GameObject:
   - component: {fileID: 1468671254}
   - component: {fileID: 1468671257}
   - component: {fileID: 1468671253}
+  - component: {fileID: 1468671258}
   m_Layer: 0
   m_Name: Falling Cube(1)
   m_TagString: Untagged
@@ -774,6 +775,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1468671258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1468671251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2a08fdaace1448bda251b29188a23db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1531734236
 GameObject:
   m_ObjectHideFlags: 0
@@ -896,7 +909,7 @@ GameObject:
   - component: {fileID: 1552677994}
   m_Layer: 0
   m_Name: Plane
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
@@ -1393,7 +1406,7 @@ GameObject:
   - component: {fileID: 72441644024937752}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
